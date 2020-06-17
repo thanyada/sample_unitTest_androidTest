@@ -23,8 +23,8 @@ class CalculatorActivity : AppCompatActivity(),
     fun pressOperate(v: View){
 
         val value = when(v.id){
-            R.id.btnDevise ->  presenter.operations[1]
-            R.id.btnMultiple ->  presenter.operations[2]
+            R.id.btnDivide ->  presenter.operations[1]
+            R.id.btnMultiply ->  presenter.operations[2]
             R.id.btnMinus ->  presenter.operations[3]
             R.id.btnPlus ->  presenter.operations[4]
             else ->  ""

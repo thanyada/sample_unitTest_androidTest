@@ -52,7 +52,7 @@
             android:layout_weight="0.6"
             android:text="/"
             android:onClick="pressOperate"
-            android:id="@+id/btnDevise"
+            android:id="@+id/btnDivide"
             android:textSize="30sp"/>
 
     </LinearLayout>
@@ -102,7 +102,7 @@
             android:layout_weight="0.2"
             android:text="x"
             android:onClick="pressOperate"
-            android:id="@+id/btnMultiple"
+            android:id="@+id/btnMultiply"
             android:textSize="30sp"/>
 
     </LinearLayout>

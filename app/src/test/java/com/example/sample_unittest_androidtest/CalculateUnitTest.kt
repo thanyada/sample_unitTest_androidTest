@@ -75,7 +75,7 @@ class CalculateUnitTest {
 
 
     @Test
-    fun onDeviseNormal() {
+    fun onDivideNormal() {
         presenter.onPressedNumber("3")
         presenter.onPressedNumber("2")
         verify(view).onDisplayed("32")
@@ -89,7 +89,7 @@ class CalculateUnitTest {
     }
 
     @Test
-    fun onDevise0() {
+    fun onDivide0() {
         presenter.onPressedNumber("3")
         presenter.onPressedNumber("2")
         verify(view).onDisplayed("32")
